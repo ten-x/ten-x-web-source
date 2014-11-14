@@ -3,15 +3,18 @@ html(class="no-js", lang="en")
     include header
     body
         div(class="endless")
-        div(class="logo")
+        div(class="logoContainer")
+          div(class="logo")
         div(class="menuBlock")
           ul(class="mainMenu")
             li
-              a(href="#" data-reveal-id="aboutModal") about
-            li
-              a(href="#" data-reveal-id="rulesModal") rules
+              a(href="http://imaginebox.red" target="_blank") imaginebox
             li
               a(href="http://goo.gl/T1B0o2" target="_blank") makeshop
+            li
+              a(href="#" data-reveal-id="aboutModal") about
+            li
+              a(href="http://likes.ten-x.red" target="_blank") likes
             li
               a(href="mailto:hello@ten-x.red") say hi
         include modals/about
